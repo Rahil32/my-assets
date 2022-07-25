@@ -1,13 +1,7 @@
-import React,{Component} from "react";
+import React from "react";
 
-class Login extends Component{
-    render(){
-        return(
-            <div className="ui for login">
-                <h1 login = "Login">Login</h1>
-            </div>
-            )
+function Login(){
+        return React.createElement("h1",null,"hello world") // w/o jsx
     }
-}
 
 export default Login
