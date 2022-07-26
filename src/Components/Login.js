@@ -1,10 +1,11 @@
 import React from "react";
 
-function Login(){
-    /* with jsx render(
-        <div>hello world</div>
-        )*/
-        return React.createElement("h1",null,"hello world") // w/o jsx
+function Login(props){
+    return(
+        <div>email is {props.email} 
+        <br/> password is {props.password}</div>
+    )
     }
+
 
 export default Login

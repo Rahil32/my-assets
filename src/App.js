@@ -5,7 +5,7 @@ import Login from './Components/Login';
 function App() {
   return (
     <div className="App">
-      <Login/>
+      <Login email="r23@gmail.com" password="123"/>
     </div>
   );
 }
